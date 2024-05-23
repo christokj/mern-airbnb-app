@@ -1,0 +1,36 @@
+
+.image_wrapper {
+    height: 37rem;
+}
+.main_image_wrapper img {
+    width: 200rem;
+    height: 36rem;
+}
+.side_image img{
+    width: 28rem;
+    height: 17.7rem;
+}
+.all_photos img{
+    width: 60rem;
+    height: 36rem;
+    
+}
+@media only screen and (max-width: 640px){
+	.image_wrapper {
+        height: 26rem;
+    }
+    .main_image_wrapper img {
+        width: 200rem;
+        height: 26rem;
+    }
+    .side_image img{
+        width: 18rem;
+        height: 12.73rem;
+        margin-bottom: 1rem;
+    }
+    .all_photos img{
+        width: 60rem;
+        height: 16rem;
+        
+    }
+}
